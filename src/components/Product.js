@@ -9,7 +9,7 @@ const Product = (props) => {
 
             <div>
                 <div className='text-center'>
-                    <Link to='/products/id'>
+                    <Link to={`/products/${product._id}`}>
                         <div>
                             <div className='flex justify-center'>
                                 <img src={product.image} alt="pizza" />
