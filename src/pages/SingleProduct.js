@@ -20,7 +20,7 @@ const SingleProduct = () => {
 
     return (
         <>
-            <div className="container mx-auto mt-12">
+            <div className="container mx-auto mt-12 py-20">
                 <button className="mb-12 font-bold hover:bg-amber-400 rounded-md p-2 px-6 border border-amber-500" onClick={ ()=>  navigate(-1) }>Back</button>
                 <div className="flex  sm:gap-10">
                     <img src={singleProduct.image} alt="pizza" />
